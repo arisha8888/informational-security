@@ -11,6 +11,7 @@
     }
 ```
 
+```
 C:\Users>curl -v http://localhost:8080/orders/redirect?url=https://www.google.com
 * Host localhost:8080 was resolved.
 * IPv6: ::1
@@ -30,6 +31,7 @@ C:\Users>curl -v http://localhost:8080/orders/redirect?url=https://www.google.co
 < Date: Tue, 06 Oct 2026 13:25:09 GMT
 <
 * Connection #0 to host localhost left intact
+```
 
 
 ### 3) fix уязвимости:
@@ -48,6 +50,7 @@ C:\Users>curl -v http://localhost:8080/orders/redirect?url=https://www.google.co
     }
 ```
 
+```
 C:\Users>curl -v http://localhost:8080/orders/safe-redirect?url=https://www.google.com
 * Host localhost:8080 was resolved.
 * IPv6: ::1
@@ -68,3 +71,4 @@ C:\Users>curl -v http://localhost:8080/orders/safe-redirect?url=https://www.goog
 < Date: Tue, 06 Oct 2026 13:35:08 GMT
 <
 * Connection #0 to host localhost left intact
+```
